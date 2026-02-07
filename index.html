@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex FQ</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font is imported in style.css -->
+</head>
+
+<body>
+    <h1 class="titulo">Pokedex</h1>
+    <div class="contenedor-pokemon">
+        <!-- Javascript inyecta los pokemons aqui -->
+    </div>
+
+    <footer class="footer">
+        <p class="footer__texto">Fernando Enrique Quiñonez Garcia</p>
+    </footer>
+
+    <!-- Estructura del modal -->
+    <div id="modal-pokemon" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-name">Bulbasaur</h2>
+                <span id="modal-id">#001</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <img id="modal-img" src="" alt="Pokemon Image">
+                </div>
+                <div class="modal-info">
+                    <div class="modal-types" id="modal-types">
+                    </div>
+                    <div class="modal-details">
+                        <p><strong>Height:</strong> <span id="modal-height">0.7m</span></p>
+                        <p><strong>Weight:</strong> <span id="modal-weight">6.9kg</span></p>
+                    </div>
+                    <div class="modal-stats" id="modal-stats">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
