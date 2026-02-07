@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
@@ -482,78 +481,4 @@ h1.titulo::after {
   width: 40px;
   text-align: right;
   font-weight: bold;
-=======
-:root {
-  --principal: #ffffff;
-  --secundario: #ff0202;
-  --tercero: #17f802;
-  --fuentePrincipal:'Bebas Neue', cursive; 
-}
-body {
-  background-color:var(--principal);
-    
-    text-align: center;
-    font-family:var(--fuentePrincipal);
-  }
-  
-  h1 {
-    font-size: 5rem;
-    color: var(--secundario);
-  }
-  
-  .contenedor-pokemon {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-top: 5rem;
-  }
-  
-  .pokemon-block {
-    border-radius: 10px;
-    padding: 10px;
-    background-color: var(--secundario);
-    box-shadow: 0 3px 15px rgba(25, 240, 6, 0.8);
-  }
-  
-  .contenedor-img {
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .pokemon-block p {
-    margin: 5px;
-    color: var(--principal);
-  }
-  
-  .nombre {
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  
-  .pokemon-block {
-    width: 100%;
-    height: 100%;
-  }
-  
-  /**FOOTER**/
-.footer{
-  background-color: var(--tercero);
-  padding: 1rem 0;
-  margin-top: 2rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-.footer__texto{
-  font-family: var(--fuentePrincipal);
-  text-align: center;
-  font-size: 2.2rem;
-  color: var(--principal);
->>>>>>> f2540f0d314b61a93646269b712cf3f2c23dcbc4
 }
